@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gameyamlspiderandgenerator-api"
+version = "0.1.0"
+description = ""
+authors = ["kaixinol <keiplyer@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gameyamlspiderandgenerator_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
